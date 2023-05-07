@@ -22,4 +22,3 @@ jobs:
         source: "build/*"
         target: "/home/cyril/www/app"
         port: ${{ secrets.PORT }}
-        key: ${{ secrets.SSH_PUBLIC_KEY}}
