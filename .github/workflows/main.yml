@@ -19,5 +19,6 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.KEY }}
+        port: ${{ secret.PORT }}
         source: "out/*"
         target: "/var/www/html/"
