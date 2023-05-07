@@ -21,4 +21,4 @@ jobs:
         key: ${{ secrets.KEY }}
         source: "out/*"
         target: "/var/www/html/"
-        port: ${{ secret.PORT }}
+        port: ${{ secrets.PORT }}
