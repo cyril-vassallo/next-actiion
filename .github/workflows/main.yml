@@ -1,4 +1,4 @@
-ame: Deploy to OVH VPS
+name: Deploy to OVH VPS
 on:
   push:
     branches:
